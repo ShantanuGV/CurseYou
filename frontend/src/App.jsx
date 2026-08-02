@@ -4,6 +4,7 @@ import logo from "./assets/curseyou_logo.png";
 import header from "./assets/curseyou_header.png";
 import hero from "./assets/curseyou_hero.png";
 import footer from "./assets/thankyou_footer.png";
+import f_i from "./assets/Untitled design.jpg";
 // Wiggly, organic-styled vector paths for the letters A-Z (viewBox="0 0 400 500")
 const GLYPH_PATHS = {
   A: "M 200 60 L 90 400 M 200 60 L 310 400 M 130 290 L 270 290",
@@ -666,7 +667,7 @@ function App() {
 
       <div className="timeline-media-box">
         <img 
-    src="./assets/Untitled design.jpg" 
+    src={f_i}
     alt="JSON Metadata Database visual" 
     className="media-image" 
   />

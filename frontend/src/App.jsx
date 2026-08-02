@@ -47,9 +47,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('');
   
   // Choose initial random name
-  const [tryText, setTryText] = useState(() => {
-    return RANDOM_NAMES[Math.floor(Math.random() * RANDOM_NAMES.length)].toUpperCase();
-  });
+  const [tryText, setTryText] = useState("");
   
   // Typewriter effect state for placeholder
   const [placeholderText, setPlaceholderText] = useState('');

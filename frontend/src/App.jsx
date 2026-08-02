@@ -701,7 +701,7 @@ function App() {
 
       <div className="timeline-media-box">
         <img 
-          src="/Untitled design.jpg"
+          src="./assets/Untitled design.jpg"
           alt="JSON Metadata Database visual" 
           className="media-image" 
         />

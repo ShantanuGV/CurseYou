@@ -665,6 +665,11 @@ function App() {
       </div>
 
       <div className="timeline-media-box">
+        <img 
+    src="./assets/Untitled design.jpg" 
+    alt="JSON Metadata Database visual" 
+    className="media-image" 
+  />
         <span className="media-icon">🛰️</span>
         <span className="media-label">
           [ Satellite River → River Glyph ]
